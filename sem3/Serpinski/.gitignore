@@ -3,3 +3,4 @@
 !.gitignore
 Debug/*
 !Debug/Serpinski
+/Debug/

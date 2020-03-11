@@ -32,12 +32,15 @@ void DragonCurve(sf::RenderWindow& window, int depth, float x0, float y0, float 
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(1920, 1080), "SFML");
+	sf::ContextSettings settings;
+	settings.antialiasingLevel = 8;
+
+    sf::RenderWindow window(sf::VideoMode(1680, 1050), "SFML", sf::Style::Close, settings);
     window.setFramerateLimit(30);
 	window.clear();
 
 	float xs = 700;
-	DragonCurve(window, 14, xs, 540, 1920-xs, 540, 1);
+	DragonCurve(window, 16, xs, 525, 1680-xs, 525, 1);
 
     while (window.isOpen())
     {
