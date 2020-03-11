@@ -1,0 +1,7 @@
+.*/
+.*
+!.gitignore
+Debug/*
+!Debug/ForceLines
+Release/*
+!Release/ForceLines

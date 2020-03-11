@@ -3,7 +3,5 @@
 !.gitignore
 Debug/*
 !Debug/hero
-/Debug/
 Release/*
 !Release/hero
-/Release/
