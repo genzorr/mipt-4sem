@@ -1,0 +1,3 @@
+/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/CMakeFiles/opencv.dir
+/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/CMakeFiles/edit_cache.dir

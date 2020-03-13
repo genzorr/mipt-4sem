@@ -1,0 +1,6 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -G "CodeBlocks - Unix Makefiles" /home/michael/developing/code/mipt-4sem/sem6/opencv
+-- Build type: Debug
+-- Configuration types: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug

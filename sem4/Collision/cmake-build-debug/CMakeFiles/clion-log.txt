@@ -1,0 +1,5 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -G "CodeBlocks - Unix Makefiles" /home/michael/developing/code/mipt-4sem/sem4/Collision
+-- Found SFML 2.5.1 in /usr/lib64/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/michael/developing/code/mipt-4sem/sem4/Collision/cmake-build-debug

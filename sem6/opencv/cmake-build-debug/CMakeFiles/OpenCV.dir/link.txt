@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Wextra -g   CMakeFiles/OpenCV.dir/src/main.cpp.o  -o OpenCV  /usr/lib/libopencv_highgui.so.4.2.0 /usr/lib/libopencv_videoio.so.4.2.0 /usr/lib/libopencv_imgcodecs.so.4.2.0 /usr/lib/libopencv_imgproc.so.4.2.0 /usr/lib/libopencv_core.so.4.2.0 

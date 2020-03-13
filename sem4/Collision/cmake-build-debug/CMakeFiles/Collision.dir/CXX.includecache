@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/global.h
+iostream
+-
+SFML/Graphics.hpp
+-
+cmath
+-
+
+../include/particle.h
+global.h
+../include/global.h
+vector2.h
+../include/vector2.h
+particle.h
+../include/particle.h
+
+../include/vector2.h
+
+/home/michael/developing/code/mipt-4sem/sem4/Collision/src/particle.cpp
+particle.h
+/home/michael/developing/code/mipt-4sem/sem4/Collision/src/particle.h
+

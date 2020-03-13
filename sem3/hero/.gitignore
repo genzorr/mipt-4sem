@@ -5,3 +5,4 @@ Debug/*
 !Debug/hero
 Release/*
 !Release/hero
+/Debug/

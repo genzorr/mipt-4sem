@@ -8,7 +8,6 @@
 #define STEP 5
 #define LINES_N	25
 #define RADIUS	20
-#define CHARGE	100
 
 
 Charge::Charge(sf::Vector2i position, sf::Color color_, int sign_)
@@ -77,8 +76,8 @@ void Charge::CountField(sf::RenderWindow& window, std::vector<Charge>& charges)
 	{
 		lines_vertex[i].clear();
 
-		float x = charge.getPosition().x + 2*vectors[i].x;
-		float y = charge.getPosition().y + 2*vectors[i].y;
+		float x = charge.getPosition().x + vectors[i].x;
+		float y = charge.getPosition().y + vectors[i].y;
 		lines_vertex[i].append(sf::Vertex(sf::Vector2f(x, y), color));
 
 		while ((x > (0-offset)) and (x < (window.getSize().x+offset)) and (y > (0-offset)) and (y < (window.getSize().y+offset)))
@@ -87,8 +86,8 @@ void Charge::CountField(sf::RenderWindow& window, std::vector<Charge>& charges)
 			for (auto& c: charges)
 			{
 				Vector2 v(x - c.charge.getPosition().x, y - c.charge.getPosition().y);
-				float len = v.len();
-				v = (CHARGE / len) * v / (len*len);
+//				v = v / v.squareLen();
+                v = v / (pow(v.len(),3)*logf(v.len()));
 				resulted += v*c.sign;
 			}
 			resulted = resulted.norm();
