@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Wextra -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/michael/developing/code/mipt-4sem/sem6/opencv/opencv -I/home/michael/developing/code/mipt-4sem/sem6/opencv/PUBLIC -I/home/michael/developing/code/mipt-4sem/sem6/opencv/include -isystem /usr/include/opencv4 
+CXX_INCLUDES = -I/home/michael/developing/code/mipt-4sem/sem6/opencv/OpenCV -I/home/michael/developing/code/mipt-4sem/sem6/opencv/PUBLIC -I/home/michael/developing/code/mipt-4sem/sem6/opencv/include -isystem /usr/include/opencv4 
 

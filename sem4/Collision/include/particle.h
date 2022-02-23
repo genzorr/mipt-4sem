@@ -11,9 +11,7 @@ public:
     MaterialPoint(Vector2 position);
     virtual ~MaterialPoint() {};
     virtual void UpdatePosition(float dt);
-
-    Vector2 GetImpulse() const;
-
+    
     Vector2 position;
     Vector2 velocity;
     Vector2 acceleration;

@@ -2,10 +2,10 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="opencv"/>
+		<Option title="OpenCV"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\opencv4\;CMake Files\include\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\opencv4\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug"/>
@@ -27,14 +27,14 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="opencv">
-				<Option output="/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/opencv" prefix_auto="0" extension_auto="0"/>
+			<Target title="OpenCV">
+				<Option output="/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/OpenCV" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/michael/developing/code/mipt-4sem/sem6/opencv/opencv"/>
+					<Add directory="/home/michael/developing/code/mipt-4sem/sem6/opencv/OpenCV"/>
 					<Add directory="/home/michael/developing/code/mipt-4sem/sem6/opencv/PUBLIC"/>
 					<Add directory="/home/michael/developing/code/mipt-4sem/sem6/opencv/include"/>
 					<Add directory="/usr/include/opencv4"/>
@@ -47,20 +47,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencv"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenCV"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="opencv/fast">
-				<Option output="/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/opencv" prefix_auto="0" extension_auto="0"/>
+			<Target title="OpenCV/fast">
+				<Option output="/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/OpenCV" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/michael/developing/code/mipt-4sem/sem6/opencv/opencv"/>
+					<Add directory="/home/michael/developing/code/mipt-4sem/sem6/opencv/OpenCV"/>
 					<Add directory="/home/michael/developing/code/mipt-4sem/sem6/opencv/PUBLIC"/>
 					<Add directory="/home/michael/developing/code/mipt-4sem/sem6/opencv/include"/>
 					<Add directory="/usr/include/opencv4"/>
@@ -73,7 +73,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencv/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenCV/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -91,25 +91,22 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/michael/developing/code/mipt-4sem/sem6/opencv/src/main.cpp">
-			<Option target="opencv"/>
+			<Option target="OpenCV"/>
 		</Unit>
 		<Unit filename="/home/michael/developing/code/mipt-4sem/sem6/opencv/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/michael/developing/code/mipt-4sem/sem6/opencv/../../../../../../../usr/lib/cmake/opencv4/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\opencv4\"/>
+		<Unit filename="/home/michael/developing/code/mipt-4sem/sem6/opencv/../../../../../../../usr/lib64/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/home/michael/developing/code/mipt-4sem/sem6/opencv/../../../../../../../usr/lib/cmake/opencv4/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\opencv4\"/>
+		<Unit filename="/home/michael/developing/code/mipt-4sem/sem6/opencv/../../../../../../../usr/lib64/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/home/michael/developing/code/mipt-4sem/sem6/opencv/../../../../../../../usr/lib/cmake/opencv4/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\opencv4\"/>
+		<Unit filename="/home/michael/developing/code/mipt-4sem/sem6/opencv/../../../../../../../usr/lib64/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/home/michael/developing/code/mipt-4sem/sem6/opencv/../../../../../../../usr/lib/cmake/opencv4/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\cmake\opencv4\"/>
-		</Unit>
-		<Unit filename="/home/michael/developing/code/mipt-4sem/sem6/opencv/include/donov.jpg">
-			<Option virtualFolder="CMake Files\include\"/>
+		<Unit filename="/home/michael/developing/code/mipt-4sem/sem6/opencv/../../../../../../../usr/lib64/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\opencv4\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/michael/developing/code/mipt-4sem/sem6/opencv/src/main.cpp" "/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/CMakeFiles/opencv.dir/src/main.cpp.o"
+  "/home/michael/developing/code/mipt-4sem/sem6/opencv/src/main.cpp" "/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/CMakeFiles/OpenCV.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../opencv"
+  "../OpenCV"
   "../PUBLIC"
   "../include"
   "/usr/include/opencv4"

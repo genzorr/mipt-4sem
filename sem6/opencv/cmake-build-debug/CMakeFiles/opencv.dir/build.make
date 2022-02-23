@@ -49,101 +49,55 @@ CMAKE_SOURCE_DIR = /home/michael/developing/code/mipt-4sem/sem6/opencv
 CMAKE_BINARY_DIR = /home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/opencv.dir/depend.make
+include CMakeFiles/OpenCV.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/opencv.dir/progress.make
+include CMakeFiles/OpenCV.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/opencv.dir/flags.make
+include CMakeFiles/OpenCV.dir/flags.make
 
-CMakeFiles/opencv.dir/src/main.cpp.o: CMakeFiles/opencv.dir/flags.make
-CMakeFiles/opencv.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv.dir/src/main.cpp.o -c /home/michael/developing/code/mipt-4sem/sem6/opencv/src/main.cpp
+CMakeFiles/OpenCV.dir/src/main.cpp.o: CMakeFiles/OpenCV.dir/flags.make
+CMakeFiles/OpenCV.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenCV.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenCV.dir/src/main.cpp.o -c /home/michael/developing/code/mipt-4sem/sem6/opencv/src/main.cpp
 
-CMakeFiles/opencv.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/developing/code/mipt-4sem/sem6/opencv/src/main.cpp > CMakeFiles/opencv.dir/src/main.cpp.i
+CMakeFiles/OpenCV.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenCV.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michael/developing/code/mipt-4sem/sem6/opencv/src/main.cpp > CMakeFiles/OpenCV.dir/src/main.cpp.i
 
-CMakeFiles/opencv.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/developing/code/mipt-4sem/sem6/opencv/src/main.cpp -o CMakeFiles/opencv.dir/src/main.cpp.s
+CMakeFiles/OpenCV.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenCV.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michael/developing/code/mipt-4sem/sem6/opencv/src/main.cpp -o CMakeFiles/OpenCV.dir/src/main.cpp.s
 
-# Object files for target opencv
-opencv_OBJECTS = \
-"CMakeFiles/opencv.dir/src/main.cpp.o"
+# Object files for target OpenCV
+OpenCV_OBJECTS = \
+"CMakeFiles/OpenCV.dir/src/main.cpp.o"
 
-# External object files for target opencv
-opencv_EXTERNAL_OBJECTS =
+# External object files for target OpenCV
+OpenCV_EXTERNAL_OBJECTS =
 
-opencv: CMakeFiles/opencv.dir/src/main.cpp.o
-opencv: CMakeFiles/opencv.dir/build.make
-opencv: /usr/lib/libopencv_gapi.so.4.2.0
-opencv: /usr/lib/libopencv_stitching.so.4.2.0
-opencv: /usr/lib/libopencv_aruco.so.4.2.0
-opencv: /usr/lib/libopencv_bgsegm.so.4.2.0
-opencv: /usr/lib/libopencv_bioinspired.so.4.2.0
-opencv: /usr/lib/libopencv_ccalib.so.4.2.0
-opencv: /usr/lib/libopencv_cvv.so.4.2.0
-opencv: /usr/lib/libopencv_dnn_objdetect.so.4.2.0
-opencv: /usr/lib/libopencv_dnn_superres.so.4.2.0
-opencv: /usr/lib/libopencv_dpm.so.4.2.0
-opencv: /usr/lib/libopencv_face.so.4.2.0
-opencv: /usr/lib/libopencv_freetype.so.4.2.0
-opencv: /usr/lib/libopencv_fuzzy.so.4.2.0
-opencv: /usr/lib/libopencv_hdf.so.4.2.0
-opencv: /usr/lib/libopencv_hfs.so.4.2.0
-opencv: /usr/lib/libopencv_img_hash.so.4.2.0
-opencv: /usr/lib/libopencv_line_descriptor.so.4.2.0
-opencv: /usr/lib/libopencv_quality.so.4.2.0
-opencv: /usr/lib/libopencv_reg.so.4.2.0
-opencv: /usr/lib/libopencv_rgbd.so.4.2.0
-opencv: /usr/lib/libopencv_saliency.so.4.2.0
-opencv: /usr/lib/libopencv_stereo.so.4.2.0
-opencv: /usr/lib/libopencv_structured_light.so.4.2.0
-opencv: /usr/lib/libopencv_superres.so.4.2.0
-opencv: /usr/lib/libopencv_surface_matching.so.4.2.0
-opencv: /usr/lib/libopencv_tracking.so.4.2.0
-opencv: /usr/lib/libopencv_videostab.so.4.2.0
-opencv: /usr/lib/libopencv_viz.so.4.2.0
-opencv: /usr/lib/libopencv_xfeatures2d.so.4.2.0
-opencv: /usr/lib/libopencv_xobjdetect.so.4.2.0
-opencv: /usr/lib/libopencv_xphoto.so.4.2.0
-opencv: /usr/lib/libopencv_shape.so.4.2.0
-opencv: /usr/lib/libopencv_highgui.so.4.2.0
-opencv: /usr/lib/libopencv_datasets.so.4.2.0
-opencv: /usr/lib/libopencv_plot.so.4.2.0
-opencv: /usr/lib/libopencv_text.so.4.2.0
-opencv: /usr/lib/libopencv_dnn.so.4.2.0
-opencv: /usr/lib/libopencv_ml.so.4.2.0
-opencv: /usr/lib/libopencv_phase_unwrapping.so.4.2.0
-opencv: /usr/lib/libopencv_optflow.so.4.2.0
-opencv: /usr/lib/libopencv_ximgproc.so.4.2.0
-opencv: /usr/lib/libopencv_video.so.4.2.0
-opencv: /usr/lib/libopencv_videoio.so.4.2.0
-opencv: /usr/lib/libopencv_imgcodecs.so.4.2.0
-opencv: /usr/lib/libopencv_objdetect.so.4.2.0
-opencv: /usr/lib/libopencv_calib3d.so.4.2.0
-opencv: /usr/lib/libopencv_features2d.so.4.2.0
-opencv: /usr/lib/libopencv_flann.so.4.2.0
-opencv: /usr/lib/libopencv_photo.so.4.2.0
-opencv: /usr/lib/libopencv_imgproc.so.4.2.0
-opencv: /usr/lib/libopencv_core.so.4.2.0
-opencv: CMakeFiles/opencv.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable opencv"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv.dir/link.txt --verbose=$(VERBOSE)
+OpenCV: CMakeFiles/OpenCV.dir/src/main.cpp.o
+OpenCV: CMakeFiles/OpenCV.dir/build.make
+OpenCV: /usr/lib/libopencv_highgui.so.4.2.0
+OpenCV: /usr/lib/libopencv_videoio.so.4.2.0
+OpenCV: /usr/lib/libopencv_imgcodecs.so.4.2.0
+OpenCV: /usr/lib/libopencv_imgproc.so.4.2.0
+OpenCV: /usr/lib/libopencv_core.so.4.2.0
+OpenCV: CMakeFiles/OpenCV.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OpenCV"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenCV.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/opencv.dir/build: opencv
+CMakeFiles/OpenCV.dir/build: OpenCV
 
-.PHONY : CMakeFiles/opencv.dir/build
+.PHONY : CMakeFiles/OpenCV.dir/build
 
-CMakeFiles/opencv.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/opencv.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/opencv.dir/clean
+CMakeFiles/OpenCV.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/OpenCV.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/OpenCV.dir/clean
 
-CMakeFiles/opencv.dir/depend:
-	cd /home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/developing/code/mipt-4sem/sem6/opencv /home/michael/developing/code/mipt-4sem/sem6/opencv /home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug /home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug /home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/CMakeFiles/opencv.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/opencv.dir/depend
+CMakeFiles/OpenCV.dir/depend:
+	cd /home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michael/developing/code/mipt-4sem/sem6/opencv /home/michael/developing/code/mipt-4sem/sem6/opencv /home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug /home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug /home/michael/developing/code/mipt-4sem/sem6/opencv/cmake-build-debug/CMakeFiles/OpenCV.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/OpenCV.dir/depend
 

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/charge.h
+vector2.h
+../include/vector2.h
+
 ../include/global.h
 iostream
 -
@@ -24,7 +28,39 @@ particle.h
 
 ../include/vector2.h
 
+/home/michael/developing/code/mipt-4sem/sem4/Collision/src/charge.cpp
+iostream
+-
+SFML/Graphics.hpp
+-
+cmath
+-
+vector2.h
+/home/michael/developing/code/mipt-4sem/sem4/Collision/src/vector2.h
+charge.h
+/home/michael/developing/code/mipt-4sem/sem4/Collision/src/charge.h
+
+/home/michael/developing/code/mipt-4sem/sem4/Collision/src/main.cpp
+iostream
+-
+SFML/Graphics.hpp
+-
+global.h
+/home/michael/developing/code/mipt-4sem/sem4/Collision/src/global.h
+particle.h
+/home/michael/developing/code/mipt-4sem/sem4/Collision/src/particle.h
+
 /home/michael/developing/code/mipt-4sem/sem4/Collision/src/particle.cpp
 particle.h
 /home/michael/developing/code/mipt-4sem/sem4/Collision/src/particle.h
+
+/home/michael/developing/code/mipt-4sem/sem4/Collision/src/vector2.cpp
+iostream
+-
+cmath
+-
+SFML/Graphics.hpp
+-
+vector2.h
+/home/michael/developing/code/mipt-4sem/sem4/Collision/src/vector2.h
 
